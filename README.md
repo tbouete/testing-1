@@ -1,6 +1,6 @@
 # Object-Oriented Software Testing
 
-Master 1 ICE, GLa - V&V - Labs ([course materials](https://combemale.github.io/teaching/m1ice/))
+Master 1 ICE, GLa - V&V - Labs ([course materials](http://combemale.fr/teaching/m1ice/))
 
 > Créez un projet Java, récupérez la classe MyPoint, et rajoutez la librairie JUnit à votre projet. 
 
