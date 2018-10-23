@@ -60,3 +60,9 @@ Avec Easymock : voir la refcard et les slides du cours.
 2. répondez aux questions (dans un nouveau fichier Markdown ou directement dans README.md), dans lequel vous préciserez également les noms du binome.
 3. rajoutez vos tests, modifications de la classe sous test, etc. 
 4. soumettez votre pull request (qui servira à l'évaluation)
+
+
+Réponse aux questions :
+
+2.b : Est-ce que votre code est sûr lorsque toutes les instructions sont couvertes par au moins un test ?
+ -> Même si le code peut apparraitre couvert, on ne vérifie pas les paramètres, donc certains paramètre innatendu peuvent toujours être saisis (null par exemple)
