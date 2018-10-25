@@ -4,8 +4,6 @@ import java.util.Random;
 
 import static java.lang.Math.PI;
 import static java.lang.Math.atan;
-
-import java.awt.Point;
 /**
  * A Basic point with double values.
  */
@@ -191,7 +189,9 @@ public class MyPoint {
 	 * @throws IllegalArgumentException When the given parameter is null.
 	 */
 	public MyPoint centralSymmetry(final MyPoint centre) {
-		if(centre == null) throw new IllegalArgumentException();
+		if(centre == null) {
+			throw new IllegalArgumentException();
+		}
 		return rotatePoint(centre, 2d * Math.PI);
 	}
 
